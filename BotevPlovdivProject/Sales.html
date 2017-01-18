@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/BotevPlovdiv.css">
+    <meta charset="UTF-8">
+    <title>Botev Plovdiv</title>
+</head>
+<body background="pictures/BotevBackground.jpg">
+<div class="header">
+    <div class="Logo">
+        <a href="BotevPlovdiv.html"> <img src="pictures/botevLogo.jpg" height="80px"></a>
+    </div>
+    <div id="TeamName"onmouseover="changeLogo()">
+        Фен Магазин
+    </div>
+</div>
+<div  class="mainSales">
+   <form name="myForm" action="someone@gmail.com" onsubmit="return validate();" method="post" enctype="text/plain">
+       Име и фамилия: <input type="text" name="firstName"required><br>
+       Имейл: <input type="text" name="email"required><br>
+       Мъж <input type="radio" name="sex" value="male"><br>
+       Жена <input type="radio" name="sex" value="female"><br>
+       Адрес за доставка: <input type="text" name="address" required><br>
+       Покупка на продукт:
+       <select>
+           <optgroup label="Тениска">
+               <option value="nedelev">Тениска - Т.Неделев</option>
+               <option value="baltanov">Тениска - Л.Балтанов</option>
+           </optgroup>
+           <optgroup label="Шапка">
+               <option value="yellowHat">Шапка - жълт цвят</option>
+               <option value="blackHat">Шапка - черен цвят</option>
+           </optgroup>
+           <optgroup label="Шорти">
+               <option value="yellowShorts">Шорти - жълт цвят</option>
+               <option value="blackShorts">Шорти - черен цвят</option>
+           </optgroup>
+           <optgroup label="Топка">
+               <option value="champLeague">Топка - Шамп.Лига</option>
+           </optgroup>
+       </select><br>
+       <input type="submit" value="Изпрати поръчка">
+       <input type="reset" value="Нулирай поръчка">
+
+   </form>
+
+
+
+
+
+</div>
+<div class="footer">
+    Botev Plovdiv Football Club<br>
+    1912
+</div>
+<script src="javaScript/BotevPlovdiv.js"></script>
+</body>
+</html>

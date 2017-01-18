@@ -1,0 +1,130 @@
+body{
+    background-color: yellow;
+}
+#clock{
+    float: right;
+    padding-right: 50px;
+    color: red;
+}
+.header {
+    width: 80%;
+    height: 100px;
+    margin: auto auto auto auto;
+    background-color: black;
+    border-radius: 45px;
+    box-shadow: 15px 15px 7px yellow;
+
+}
+.Logo{
+padding-left: 100px;
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#TeamName{
+    color: yellow;
+    float: right;
+    font-size: xx-large;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+.menu{
+    width: 60%;
+    height: 1000px;
+    margin: auto auto auto auto;
+    background-color: yellow;
+    font-size: 200%;
+    margin-bottom: 60px;
+    border-radius: 15px;
+
+}
+.mainFanShop img{opacity:0.6;
+    filter:alpha(opacity=40);
+    padding-right: 30px;
+}
+.mainFanShop img:hover{opacity:1.0;
+    filter:alpha(opacity=100);
+    width: 300px;
+}
+
+.menu h1{
+    padding-top: 35px;
+    margin-left: 50px;
+}
+.menu h3{
+    margin-left: 20px;
+}
+.youtubeVideo{
+    float: right;
+    margin-right: 40px;
+}
+.sportal{
+    margin-left: 95px;
+
+}
+a:link{color: red;    text-decoration: none;text-shadow: 3px 3px 3px black;
+    font-style: oblique;
+}
+a:visited{color: red;    text-shadow: 3px 3px 3px black;
+    font-style: oblique;
+}
+a:hover{color: green;    text-shadow: 3px 3px 3px black;
+    font-style: oblique;
+}
+a:active{color: gray;    text-shadow: 3px 3px 3px black;
+    font-style: oblique;
+}
+.menu img{
+    margin-left: 60px;
+}
+
+.footer{
+    width: 80%;
+    height: 100px;
+    margin: auto auto auto auto;
+    background-color: black;
+    color: yellow;
+    font-size: 260%;
+    text-align: center;
+    border: solid yellow 3px;
+    border-radius: 45px;
+}
+.mainFanShop{
+    width: 60%;
+    height: 700px;
+    margin: auto auto auto auto;
+    background-color: yellow;
+    font-size: 200%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 200px;
+    padding-top: 5px;
+}
+.historyBotev{
+    width: 60%;
+    height: 700px;
+    margin: auto auto auto auto;
+    background-color: yellow;
+    font-size: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+.historyBotev li{
+    float: left;
+    padding-left: 40px;
+}
+.mainSales{
+    width: 60%;
+    height: 360px;
+    margin: auto auto auto auto;
+    background-color: yellow;
+    font-size: 200%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding-left: 300px;
+    padding-top: 50px;
+}

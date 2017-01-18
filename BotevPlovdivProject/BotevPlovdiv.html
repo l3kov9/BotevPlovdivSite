@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/BotevPlovdiv.css">
+    <meta charset="UTF-8">
+    <title>Botev Plovdiv</title>
+</head>
+<body background="pictures/BotevBackground.jpg">
+<div class="header">
+    <div class="Logo">
+         <a href="BotevPlovdiv.html"> <img id="logoJS" src="pictures/botevLogo.jpg" height="80px"></a>
+    </div>
+    <div id="TeamName" onmouseover="changeLogo()">
+        Ботев Пловдив
+    </div>
+</div>
+<div  class="main">
+    <div class="menu">
+        <h1>Меню<div id="clock"></div></h1>
+        <div class="youtubeVideo">
+            <video width="350"height="245" controls poster="pictures/videoImage.jpg">
+                <source src="video/BotevVideo2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </div>
+        <ul>
+            <li>Собственик</li>
+            <ul><li><a href="MyCV.html" target="_blank">Автобиография</a></li>
+            <li><a href="VideoAndAudio.html"target="_blank">Любими неща</a></li></ul>
+            <li><a href="History.html"> История на клуба</a></li>
+            <li><a href="FanShop.html">Фен магазин</a></li>
+            <li><a href="Sales.html" id="sales"onclick="saleOrNot()">Поръчки</a></li>
+        </ul>
+            <h3>Новини: </h3>
+        <iframe class="sportal" src="http://m.sportal.bg/news.php?id=636910" width="300" height="200"frameborder="0" ></iframe>
+        <iframe src="http://m.sportal.bg/news.php?category=1&id=636966" width="300" height="200"frameborder="0" ></iframe>
+        <br><br>
+        <iframe class="sportal"src="http://m.sportal.bg/news.php?id=636845" width="300" height="200"frameborder="0" ></iframe>
+        <iframe src="http://m.sportal.bg/news.php?id=636693" width="300" height="200"frameborder="0" ></iframe>
+    </div>
+</div>
+
+<div class="footer">
+    Botev Plovdiv Football Club<br>
+    1912
+</div>
+<script src="javaScript/BotevPlovdiv.js"></script>
+</body>
+</html>
